@@ -1,5 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 50px;
 }
 
 section {
@@ -8,4 +17,21 @@ section {
 
 footer {
     background-color: #666666;
+}
+
+.links {
+    height: 100%;
+    padding-top: 15px;
+    right: 0%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 80%;
+    margin: 0;
+}
+
+.page-title {
+    height: 100%;
+    display: inline-block;
 }
